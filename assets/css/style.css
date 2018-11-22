@@ -53,3 +53,9 @@ img {
     width: 90%;
     font-size: 30px;
 }
+
+@media only screen and (max-width: 786px) {
+    .ninja-image {
+        display: none;
+    }
+}

@@ -70,10 +70,10 @@ var questions = [{
 
 }, {
     q: "Who won $100,000 as the last man standing in Season 10?",
-    a1: "Daniel Gil",
+    a1: "Ethan Courtney",
     a2: "Drew Drechsel",
     a3: "Jake Murray",
-    a4: "Mike Meyers",
+    a4: "Daniel Gil",
     correct: "a2",
     answertext: "Drew Drechsel",
     funfact: ""
@@ -437,4 +437,6 @@ $("#restart").on("click", function () {
 // GAME PLAY============================================================
 $(document).ready(function () {
     startGame();
+    document.getElementById("background-music").loop = true;
+
 });
